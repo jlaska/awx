@@ -239,7 +239,7 @@ To create the admin user, and load demo data, you first need to start a shell se
 ```
 This creates a session in the *awx* containers, just as if you were using `ssh`, and allows you execute commands within the running container.
 
-##### Create an admin user
+##### Create a superuser
 
 Before you can log into AWX, you need to create an admin user. With this user you will be able to create more users, and begin configuring the server. From within the container shell, run the following command:
 
@@ -265,7 +265,7 @@ this container, and thus the database, if the database schema changes in an upst
 
 You can now log into the AWX web interface at [https://localhost:8043](https://localhost:8043), and access the API directly at [https://localhost:8043/api/](https://localhost:8043/api/).
 
-To log in use the admin user and password you created above in [Create an admin user](#create-an-admin-user).
+To log in use the admin user and password you created above in [Create a superuser](#create-a-superuser).
 
 ### Purging containers and images
 
